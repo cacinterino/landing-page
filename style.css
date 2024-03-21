@@ -40,6 +40,7 @@ a{
     align-items: center;
     gap: 32px;
     flex-shrink: 0;
+    flex-wrap: wrap;
 }
 .head{
     display: flex;
@@ -54,11 +55,9 @@ a{
     color: #f9faf8;
     margin-bottom: 10px;
 }
-.img{
+.content img{
     display: block;
     max-width: 100%;
-    overflow: clip;
-    
 }
 .content .btn{
     background-color: #3882f6;
@@ -106,17 +105,17 @@ a{
     padding: 50px;
     margin: 40px 0;
 }
-.h1{
+.ctn p{
+    font-size: 20px;
+    display: flex;
+    justify-content: end;
+    font-weight: 500;
+}
+.ctn h1{
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
     color: #1f2937;
-}
-p{
-    font-size: 25px;
-    display: flex;
-    justify-content: end;
-    font-weight: 800;
 }
 .sign-up{
     display: flex;
@@ -131,7 +130,7 @@ p{
     margin: auto;
     display: flex;
     margin-bottom: 30px;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     border-radius: 10px;
